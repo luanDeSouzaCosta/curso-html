@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico.ico" type="image/x-icon">
+    <title>Mídeas em html 5</title>
+</head>
+<body>
+    <h1>Imagens responsivas</h1>
+    <h2>Quando a tela for diminuida ou aumentada</h2>
+    <p>a imagem de fundo altera para uma imagem de tamanho menor ou maior de acordo com o tamanho da tela</p>
+    <h3><pre>
+    < picture>
+       < source media="(max-width: 730px)" srcset="imagem/foto-p.png" type="image/png">
+       < source media="(max-width: 1030px)" srcset="imagem/foto-m.png" type="image/png">
+       < img src="imagem/foto-g.png" alt="imagem flexivel">
+    < /picture>
+    </pre></h3>
+
+    <picture>
+        <source media="(max-width: 725px)" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="imagem/foto-m.png" type="image/png">
+       
+        <img src="imagem/foto-g.png" alt="imagem flexivel">
+    </picture>
+</body>
+</html>
