@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico.ico" type="image/x-icon">
+    <title>Videos com HTML 5</title>
+</head>
+
+<body>
+    <h1>Videos hospedados localmente:</h1>
+
+    <p>Este video esta no meu proprio servidor</p>
+
+    <h2>Há duas formas de exibir um video</h2>
+
+    <h3>
+        <pre><h2> A primeira é:</h2></h3>
+
+    <video src="video/Video-mp4.m4v" width="400" height="315" poster="imagem/foto-praia.jpg" controls loop></video>
+
+    <h2>A segunda é:</h2> 
+    
+    <video controls width="400" height="315" poster="imagem/foto-praia.jpg">
+        <source src="video/video-original.mp4" type="video/mp4">
+        <source src="video/Video-mp4.m4v" type="video/m4v">
+        /*source src="video/Video-mp4.ogv" type="video/ogv"*/
+        /*source src="video/Video-mp4.webm" type="video/webm"*/
+    </video>
+
+<h1>Inserindo video direto do YouTube</h1>
+<iframe width="400" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+</html>
